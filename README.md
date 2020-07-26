@@ -15,7 +15,7 @@ Adds a lock/unlock all fields button to your fields view. Use it if you want to 
 
 
 PFQ-Aeroblast.user.js
-If you go to someone's fields and press the "o" letter key, it will start attempting to send an interaction for every pokemon they own. Use the website's debug mode or your browser's network tab to tell when it's done. You'll probably get a bunch of errors from the site for doing this since it's trying to send interactions as fast as your internet connection can keep up.
+If you go to someone's fields and press the "o" letter key, it will start attempting to send an interaction for every pokemon they own. It now tells you how far along it is in the title of the field. You'll probably get a bunch of errors from the site for doing this since it's trying to send interactions as fast as your internet connection can keep up. It doesn't stop if it get's a "you're interacting too much" error so you need to check that yourself.
 
 
 PFQ-Always-open-notifications.user.js
