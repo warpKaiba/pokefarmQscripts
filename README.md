@@ -1,5 +1,5 @@
 # pokefarmQscripts
-Some scripts i've made for PFQ. You need the tampermonkey or greasemonkey browser extension to use these.
+Some scripts i've made for PFQ. You need the tampermonkey or greasemonkey browser extension to use these. Among them are scripts that make some of PokeFarm Q easier to use, but also some cheats and hacks. 
 
 To install:
 Install Tampermonkey or Greasemonkey.
