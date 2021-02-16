@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         PFQ - Aeroblast
 // @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  hewwo
+// @version      0.3
+// @description  >:3 hello ^^;
 // @author       You
 // @include      https://pokefarm.com/fields*
 // @grant        none
@@ -73,11 +73,12 @@
                 console.log(temporarySecretary);
                 var pokeList = [];
                 var jqueryTipz = $(".fieldmontip a", $(temporarySecretary).context);
-                if (jqueryTipz != undefined) {
+                var pokemons = $('.field > .fieldmon[data-fed="0"]').not('[style*="display"]');
+                if (pokemons != undefined) {
 
-                    for (var i = 0; i < jqueryTipz.length; i++) {
-                        var pid = jqueryTipz[i].href.split("/")[jqueryTipz[i].href.split("/").length-1];
-                        if (pid != undefined && pid != "haxor" && pid != "boxes" && pid.length < 6) { //lol
+                    for (var i = 0; i < pokemons.length; i++) {
+                        var pid = pokemons.get(i).dataset.id;
+                        if (pid != undefined && pid != "haxor" && pid != "boxes" && pid.length < 6 && pokemons.get(i).firstChild.height>20 && pokemons.get(i).firstChild.width>20) { //lol
                             pokeList.push({pid: pid, berry: "pecha", check: false});
                         }
                     } //me smart now =3
