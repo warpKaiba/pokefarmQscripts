@@ -23,6 +23,8 @@ If you go to someone's fields and press the "o" letter key, it will start attemp
 
 They discovered this script and came up with a cool counter measure, aeroblast would try to click a pokemon with a pid of "haxor", which would instantly mark your account as a cheater. The script will now NOT do this because it doesn't just look through raw html with a regex because I'm a lvl 2 script kiddie now 
 
+Update 2-15-21: They did another counter measure of placing fake pids in the html, lets see how much they have to mangle their html until one of us gives up :3 (is now safe to use again....for now)
+
 ### PFQ-Always-open-notifications.user.js
 Keeps the notification box open all the time on the right side.
 
