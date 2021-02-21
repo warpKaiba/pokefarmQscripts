@@ -45,6 +45,9 @@
                     console.log("#######next page detected");
                     var clickables = $('[data-berry=aspear]')
                     console.log($('[data-pid]').length)
+                    
+                    if($('[data-pid]') == "haxor") return; //begone anticheat
+                    
                     if ($('[data-pid]').length < 1) {
                         $('.mu_navlink.next').click();
                         return;
